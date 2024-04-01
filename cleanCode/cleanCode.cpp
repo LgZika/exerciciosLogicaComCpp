@@ -14,8 +14,6 @@ requer biblios <algorithm> e <cctype>
 
 */
 
-
-
 using namespace std;
 
 int main() {
