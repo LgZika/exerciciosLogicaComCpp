@@ -21,8 +21,11 @@ int main() {
 
     reverse(numRev.begin(), numRev.end()); // inverte a string armazenada usando a "função reverse()" (<algorithm>)
 
-    num = numTxt.compare(numRev);
+    num = numTxt.compare(numRev); // a funcao .compare retorna 0 se as strings forem iguais
 
+    cout << "-> " << (!num) << endl;
+    
+    /*
     if (num == 0) { // A logica fica um pouco estranha pois a funcao compare retorna 0 se as strings forem iguais
         cout << "-> 1\n";
         cout << "O numero " << numTxt << " e palindromo pois e igual ao reverso de seu numero " << numRev << endl;
@@ -31,6 +34,6 @@ int main() {
         cout << "-> 0\n";
         cout << "O numero " << numTxt << " Nao e palindromo pois nao e igual ao reverso de seu numero " << numRev << endl;
     }
-
+    */
     return false;
 }
