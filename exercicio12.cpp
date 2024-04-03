@@ -10,7 +10,9 @@ int main(){
     cout << "Entre com um numero: ";
     cin >> x;
     cout << "Imprima 1 se for divisivel por 3 e por 5, e 0 caso contrário\n";
-    cout << "O numero inserido eh: " << ((x % 3 == 0) && (x % 5 == 0)) << endl;
+    //cout << "O numero inserido eh: " << ((x % 3 == 0) && (x % 5 == 0)) << endl;
+    cout << "O numero inserido eh: " << (x % 15 == 0) << endl;
+
 
     return false;
 }
